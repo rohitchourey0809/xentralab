@@ -300,7 +300,7 @@ const Home = () => {
                     />
 
                     {/* Icon override is handled by ServiceCard */}
-                    {Icon && null}
+                   {Icon && <Icon />}
 
                   </div>
                 );
