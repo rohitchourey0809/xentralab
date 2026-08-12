@@ -16,7 +16,6 @@ import { team } from "../data/team";
 import { testimonials } from "../data/testimonials";
 
 import {
-  ArrowRight,
   Check,
   Sparkles,
   Brain,
