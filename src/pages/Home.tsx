@@ -204,7 +204,11 @@ const Home = () => {
                         <div className="mx-auto flex h-32 w-32 items-center justify-center rounded-full border border-cyan-300/20 bg-gradient-to-br from-blue-500/20 to-violet-500/20">
 
                           <div className="flex h-20 w-20 items-center justify-center rounded-3xl bg-gradient-to-br from-blue-500 to-violet-500 text-4xl font-black">
-                            X
+                             <img
+                                src="/XentraLab3.png"
+                                alt="XentraLab logo"
+                                className="h-full w-full object-contain"
+                              />
                           </div>
 
                         </div>

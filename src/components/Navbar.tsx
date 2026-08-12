@@ -44,9 +44,16 @@ const Navbar = () => {
           onClick={() => setMobileMenu(false)}
         >
           {/* Temporary logo */}
-          <div className="flex h-10 w-10 items-center justify-center rounded-xl bg-gradient-to-br from-blue-500 to-violet-500 text-lg font-black text-white">
+          {/* <div className="flex h-10 w-10 items-center justify-center rounded-xl bg-gradient-to-br from-blue-500 to-violet-500 text-lg font-black text-white">
             X
-          </div>
+          </div> */}
+          <div className="flex h-10 w-10 items-center justify-center rounded-xl bg-gradient-to-br from-blue-500 to-violet-500 overflow-hidden">
+        <img
+          src="/XentraLab3.png"
+          alt="XentraLab logo"
+          className="h-full w-full object-contain"
+        />
+      </div>
 
           <div>
             <div className="text-lg font-bold tracking-tight text-white">
